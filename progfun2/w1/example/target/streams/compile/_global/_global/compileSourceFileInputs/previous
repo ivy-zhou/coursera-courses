@@ -1,0 +1,1 @@
+["sbt.Task[scala.collection.immutable.Map[java.lang.String, scala.collection.Seq[scala.Tuple2[java.nio.file.Path, sbt.nio.FileStamp]]]]",{"2.13.1":{"hashes":[["/Users/ivyzhou/development/coursera-courses/progfun2/w1/example/src/main/scala/example/Lists.scala","70bf92d6d619e0b761aff1b49a28651e6a71931f"]],"lastModifiedTimes":[]}}]

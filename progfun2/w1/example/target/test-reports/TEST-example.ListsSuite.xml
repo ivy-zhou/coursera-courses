@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite hostname="mapplebook.local" name="example.ListsSuite" tests="6" errors="0" failures="3" skipped="0" time="0.148" timestamp="2020-08-21T09:30:59">
+                     <properties>
+      <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/><property name="java.specification.version" value="11"/><property name="sun.cpu.isalist" value=""/><property name="sun.jnu.encoding" value="UTF-8"/><property name="sun.arch.data.model" value="64"/><property name="sbt.supershell" value="false"/><property name="java.vendor.url" value="https://www.jetbrains.com/"/><property name="sun.boot.library.path" value="/Applications/IntelliJ IDEA.app/Contents/jbr/Contents/Home/lib"/><property name="sun.java.command" value="/Users/ivyzhou/Library/Application Support/JetBrains/IntelliJIdea2020.1/plugins/Scala/launcher/sbt-launch.jar early(addPluginSbtFile=&quot;&quot;&quot;/private/var/folders/pf/8jxh_hcn0m92ykxwjymx4tgh0000gn/T/idea.sbt&quot;&quot;&quot;) ; set ideaPort in Global := 60857 ; idea-shell"/><property name="jdk.debug" value="release"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="java.version.date" value="2020-04-14"/><property name="java.home" value="/Applications/IntelliJ IDEA.app/Contents/jbr/Contents/Home"/><property name="file.separator" value="/"/><property name="java.vm.compressedOopsMode" value="Zero based"/><property name="line.separator" value="
+"/><property name="java.specification.name" value="Java Platform API Specification"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="java.runtime.version" value="11.0.7+10-b765.64"/><property name="user.name" value="ivyzhou"/><property name="log4j.ignoreTCL" value="true"/><property name="file.encoding" value="UTF-8"/><property name="java.vendor.version" value="JBR-11.0.7.10-765.64-jfx"/><property name="java.io.tmpdir" value="/var/folders/pf/8jxh_hcn0m92ykxwjymx4tgh0000gn/T/"/><property name="java.version" value="11.0.7"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/><property name="sun.os.patch.level" value="unknown"/><property name="java.library.path" value="/Users/ivyzhou/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/><property name="java.vendor" value="JetBrains s.r.o."/><property name="sun.io.unicode.encoding" value="UnicodeBig"/><property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16|localhost|*.localhost|127.0.0.1"/><property name="gopherProxySet" value="false"/><property name="java.class.path" value="/Users/ivyzhou/Library/Application Support/JetBrains/IntelliJIdea2020.1/plugins/Scala/launcher/sbt-launch.jar"/><property name="java.vm.vendor" value="JetBrains s.r.o."/><property name="jline.shutdownhook" value="false"/><property name="user.timezone" value="America/Toronto"/><property name="os.name" value="Mac OS X"/><property name="java.vm.specification.version" value="11"/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="user.country" value="CA"/><property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16|localhost|*.localhost|127.0.0.1"/><property name="sun.cpu.endian" value="little"/><property name="user.home" value="/Users/ivyzhou"/><property name="user.language" value="en"/><property name="sbt.version" value="1.3.8"/><property name="swoval.tmpdir" value="/Users/ivyzhou/.sbt/1.0"/><property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/><property name="jline.esc.timeout" value="0"/><property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16|localhost|*.localhost|127.0.0.1"/><property name="path.separator" value=":"/><property name="os.version" value="10.15.6"/><property name="jna.nosys" value="true"/><property name="java.runtime.name" value="OpenJDK Runtime Environment"/><property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/><property name="java.vendor.url.bug" value="https://youtrack.jetbrains.com"/><property name="user.dir" value="/Users/ivyzhou/development/coursera-courses/progfun2/w1/example"/><property name="os.arch" value="x86_64"/><property name="idea.managed" value="true"/><property name="java.vm.info" value="mixed mode"/><property name="java.vm.version" value="11.0.7+10-b765.64"/><property name="java.class.version" value="55.0"/>
+    </properties>
+                     <testcase classname="example.ListsSuite" name="one plus one is three (0pts)?" time="0.094">
+                                                 <failure message="java.lang.AssertionError: assertion failed" type="sbt.ForkMain$ForkError">sbt.ForkMain$ForkError: java.lang.AssertionError: assertion failed
+	at scala.Predef$.assert(Predef.scala:267)
+	at example.ListsSuite.one$u0020plus$u0020one$u0020is$u0020three$u0020$u00280pts$u0029$qmark(ListsSuite.scala:28)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)
+</failure>
+                                               </testcase><testcase classname="example.ListsSuite" name="max of a few numbers (10pts)" time="0.049">
+                                                 <failure message="java.util.NoSuchElementException: null" type="sbt.ForkMain$ForkError">sbt.ForkMain$ForkError: java.util.NoSuchElementException: null
+	at example.Lists$.max(Lists.scala:44)
+	at example.Lists$.max(Lists.scala:45)
+	at example.Lists$.max(Lists.scala:45)
+	at example.Lists$.max(Lists.scala:45)
+	at example.ListsSuite.max$u0020of$u0020a$u0020few$u0020numbers$u0020$u002810pts$u0029(ListsSuite.scala:101)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)
+</failure>
+                                               </testcase><testcase classname="example.ListsSuite" name="intNotZero throws an exception if its argument is 0" time="0.001">
+                                                 
+                                               </testcase><testcase classname="example.ListsSuite" name="details why one plus one is not three (0pts)" time="0.001">
+                                                 <failure message="java.lang.AssertionError: expected:&lt;3&gt; but was:&lt;2&gt;" type="sbt.ForkMain$ForkError">sbt.ForkMain$ForkError: java.lang.AssertionError: expected:&lt;3&gt; but was:&lt;2&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:555)
+	at org.junit.Assert.assertEquals(Assert.java:542)
+	at example.ListsSuite.details$u0020why$u0020one$u0020plus$u0020one$u0020is$u0020not$u0020three$u0020$u00280pts$u0029(ListsSuite.scala:53)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)
+</failure>
+                                               </testcase><testcase classname="example.ListsSuite" name="sum of a few numbers (10pts)" time="0.002">
+                                                 
+                                               </testcase><testcase classname="example.ListsSuite" name="one plus one is two (0pts)" time="0.001">
+                                                 
+                                               </testcase>
+                     <system-out><![CDATA[]]></system-out>
+                     <system-err><![CDATA[]]></system-err>
+                   </testsuite>
